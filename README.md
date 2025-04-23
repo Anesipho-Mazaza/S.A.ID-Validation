@@ -19,3 +19,18 @@ This is a simple terminal-based tool to validate **South African ID numbers** ba
 - (Optional) Git for cloning the repo
 ## **Step 2: Run the Application**
 java -cp out org.calculator.junit.App
+
+## Validation Logic
+South African ID numbers are 13 digits and follow this format:
+YYMMDD SSSS C A Z
+Where:
+
+YYMMDD: Date of birth
+
+SSSS: Sequence number (used to determine gender)
+
+C: Citizenship (0 = SA citizen, 1 = permanent resident)
+
+A: Usually 8 (historical use)
+
+Z: Checksum digit (validated using the Luhn algorithm)
