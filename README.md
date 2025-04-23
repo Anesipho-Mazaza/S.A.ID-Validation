@@ -17,3 +17,5 @@ This is a simple terminal-based tool to validate **South African ID numbers** ba
 - Java JDK 8 or higher
 - Terminal or Command Prompt
 - (Optional) Git for cloning the repo
+## **Step 2: Run the Application**
+java -cp out org.calculator.junit.App
